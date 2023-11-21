@@ -1,0 +1,22 @@
+include color 
+
+my-grey = color(36, 37, 38, 1)
+
+var rectRed = rotate(45, rectangle(80, 80, "solid", "red"))
+var rectBlue = rotate(45, rectangle(80, 80, "solid", "blue"))
+var rect1 = rotate(315, rectangle(85, 170, "solid" , "white"))
+var bg= rectangle(350, 300, "solid", my-grey)
+var circ =circle(15, "solid", "white")
+  
+put-image(
+  circ, 160, 120,
+  put-image(
+    circ, 120, 120,
+    put-image(
+      circ, 200, 180,
+put-image( rectBlue, 140, 120,
+  put-image( rectRed, 200, 180,
+     put-image( rect1, 170, 150,
+      put-image( bg, 175, 150,
+  
+              empty-scene(350, 300))))))))
